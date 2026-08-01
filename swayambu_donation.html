@@ -1588,9 +1588,9 @@
 <script>
   // ── CONFIG — replace with your actual keys ──────────────────────────────
   const RAZORPAY_KEY_ID   = 'rzp_live_SmrdsnLLVncdHv';   // Razorpay Live Key ID
-  const EMAILJS_PUBLIC_KEY = 'YOUR_EMAILJS_PUBLIC_KEY';   // ← Your EmailJS Public Key
-  const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';           // ← Your EmailJS Service ID
-  const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';         // ← Your EmailJS Template ID
+  const EMAILJS_PUBLIC_KEY = 'O123BNbACb4B-N8fH';
+  const EMAILJS_SERVICE_ID = 'service_6ha4ptb';
+  const EMAILJS_TEMPLATE_ID = 'template_3b65b9q';
   // ────────────────────────────────────────────────────────────────────────
 
   // Init EmailJS
@@ -1764,10 +1764,10 @@
       seva_name:  sevaVal,
       amount:     '₹' + amount.toLocaleString('en-IN'),
       payment_id: paymentId,
-      address:    address || 'Not provided',
-      pan:        pan     || 'Not provided',
       temple:     'Shri Swayambhu Ganesh Temple, Kandivali East, Mumbai',
       trust:      'Shri Swayambhu Ganesh Trust — E.R. 21196',
+      trust_pan:  'AAETS7338D',
+      cert_80g:   'AAETS7338DF20241',
       date:       new Date().toLocaleDateString('en-IN', {day:'2-digit',month:'long',year:'numeric'}),
     };
 
